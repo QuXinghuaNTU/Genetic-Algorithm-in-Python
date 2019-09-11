@@ -1,8 +1,9 @@
-![Genetic Algorithm](![gaPeaksExample_02](https://user-images.githubusercontent.com/36146785/64680387-48124400-d4b0-11e9-8284-a6af3e2834b9.png)
-# Genetic-Algorithm-in-Python
+
+## Genetic-Algorithm-in-Python
     This code implements the basic genetic algorithm (GA) in python
 
-# Dependency:
+## Dependency:
     numpy
     scipy
     random
+![Genetic Algorithm](!![ga_image](https://user-images.githubusercontent.com/36146785/64680698-dedf0080-d4b0-11e9-8d63-3e6a6adee2a2.png))
