@@ -1,0 +1,20 @@
+from GA import GeneticAlgorithm
+import numpy as np
+import matplotlib.pyplot as plt
+
+def fitness_function(a,genome):
+    fitness = a*sum(genome)
+    return fitness
+
+
+popsize=10
+max_generation=10
+x_initial = [1,2,1]
+L_bound   = [0,0,0]
+U_bound   = [10,10,10]
+a = 1
+function = lambda genome: fitness_function(a,genome)
+ga = GeneticAlgorithm(function,popsize,max_generation,x_initial,L_bound,U_bound)
+Best_fitness, Individuals = ga.optimize()
+plt.plot(Best_fitness)
+
